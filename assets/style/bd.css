@@ -1,0 +1,117 @@
+body{
+    background-color: black;/*var(--OffBlack)*/
+}
+.Container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+}
+.Perfil{
+    width: 200px;
+    height: fit-content;
+    justify-content: center;
+    padding: 30px;
+    background-color:/*darkgray;*/var(--DarkGrey);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+}
+.Imagen{
+    display: flex;
+    padding: 10px;
+}
+.Imagen img{
+    width: 50%;
+    margin: auto;
+    border-radius: 50%;
+}
+.profile-pic{
+    width: 10%;
+    height: 10%;
+    object-fit: cover;
+}
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 20%);
+    --DarkGrey: hsl(0, 0%, 12%);
+    --OffBlack:hsl(0, 0%, 8%);
+    --Green:hsl(75, 94%, 57%);
+}
+.Name{
+    height: 30px;
+    font-size: 14px;
+    font-family: "inter", sans-serif;
+    color:white;/*var(--White)*/
+}
+.lugar{
+    height: 30px;
+    font-size: 14px;
+    font-family: "inter", sans-serif;
+    color:/*green;*/var(--Green);
+}
+.Ocupacion{
+    height: 30px;
+    font-size: 11px;
+    font-family: "inter", sans-serif;
+    color:white;/*var(--White);*/
+}
+.button-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+button{
+    padding: 13px;
+}
+button{
+    padding: 13px;
+    margin: 5px;
+    background-color:/* green;*/var(--Green);
+    color: /*white;*/var(--White);
+    border: none;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: /*green;*/var(--Green);
+    color: /*green;*/var(--Grey);
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+}
+.Perfil{
+    width: 350px;
+    height: fit-content;
+    justify-content: center;
+    padding: 30px;
+    background-color:/*darkgray;*/var(--DarkGrey);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+}
+.button-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+button{
+    padding: 15px;
+    margin: 8px;
+    background-color:  /*green;*/var(--Grey);
+    color: /*white;*/var(--White);
+    border: none;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: /*greenyellow;*/var(--Green);
+    color: /*darkgray;*/var(--Grey);
+}
