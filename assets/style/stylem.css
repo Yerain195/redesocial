@@ -1,6 +1,5 @@
 body {
     background-color: black; 
-    overflow-x: hidden; 
 }
 
 .Container {
@@ -10,12 +9,11 @@ body {
     transform: translate(-50%, -50%);
     display: flex;
     justify-content: center;
-    max-width: 100%; 
-    overflow-x: auto; 
 }
 
 .tarjetas {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .Perfil {
@@ -64,7 +62,7 @@ body {
 }
 
 .lugar {
-    color: var(--Green);
+    color: var(--Green); 
 }
 
 .Ocupacion {
@@ -80,9 +78,8 @@ body {
 button {
     padding: 15px; 
     margin: 8px; 
-    background-color: var(--Grey);
+    background-color: var(--Grey); 
     color: var(--White); 
-    border: none;
     border-radius: 10px;
 }
 
